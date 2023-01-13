@@ -1,0 +1,3 @@
+services:
+  app:
+    image: "DiGPT:0.0.1"
