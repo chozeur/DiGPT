@@ -5,4 +5,5 @@ ADD digpt /digpt/
 
 RUN pip install -r requirements.txt
 
-RUN python -m src.main
+# RUN python -m src.main
+CMD [ "python", "-m", "src.main" ]
