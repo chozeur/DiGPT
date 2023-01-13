@@ -1,7 +1,7 @@
 FROM python:latest
 
-WORKDIR /DiGPT
-ADD DiGPT /DiGPT/
+WORKDIR /digpt
+ADD digpt /digpt/
 
 RUN pip install -r requirements.txt
 
